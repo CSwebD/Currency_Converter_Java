@@ -37,10 +37,14 @@ A simple desktop **Currency Converter** application built with **Java Swing**. I
 ## 📁 Project Structure
 
 ```
-Currency_3/
-├── Currency_3.java        # Main GUI application
-├── image.png              # Screenshot used in README
-└── README.md              # This file
+Currency_Converter/
+├── src/
+│   └── eCurrency_3/
+│       └── Currency_3.java
+├── README.md
+├── image.png
+├── .gitignore
+
 ```
 
 ## 📷 Screenshot
