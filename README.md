@@ -1,6 +1,6 @@
 
 
-### ✅ `README.md` for `Currency_3` (Java Swing Currency Converter)
+### (Java Swing Currency Converter)
 
 ````markdown
 # Currency_3
