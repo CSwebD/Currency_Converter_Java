@@ -2,7 +2,7 @@
 
 ### (Java Swing Currency Converter)
 
-````markdown
+
 # Currency_3
 
 A simple desktop **Currency Converter** application built with **Java Swing**. It allows users to convert amounts between popular currencies including GBP, USD, EUR, INR, and more.
