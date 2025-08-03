@@ -33,7 +33,7 @@ A simple desktop **Currency Converter** application built with **Java Swing**. I
    ```bash
    git clone https://github.com/yourusername/Currency_3.git
    cd Currency_3
-````
+   ```
 
 2. Open the project in your IDE (e.g., Eclipse or IntelliJ)
 
