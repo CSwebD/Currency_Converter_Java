@@ -1,6 +1,4 @@
-Great! Here's a sample `README.md` for your `Currency_3` Java Swing project, using the uploaded `image.png` from your main folder.
 
----
 
 ### ✅ `README.md` for `Currency_3` (Java Swing Currency Converter)
 
