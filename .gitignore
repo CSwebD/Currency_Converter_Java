@@ -1,1 +1,31 @@
+# Ignore compiled class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore build output folders
+bin/
+build/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore IntelliJ IDEA files (if ever used)
+.idea/
+*.iml
+out/
 
