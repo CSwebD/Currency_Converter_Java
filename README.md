@@ -52,21 +52,4 @@ Currency_3/
 
 ![App UI](image.png)
 
-## 📄 License
 
-This project is open-source and free to use.
-
----
-
-Made with ❤️ in Java
-
-```
-
----
-
-### 📌 Notes:
-- Make sure `image.png` is **in the same folder** as your `README.md`.
-- When you push to GitHub, GitHub will render the image automatically.
-
-Let me know if you'd like to also add a `.gitignore` or license file.
-```
