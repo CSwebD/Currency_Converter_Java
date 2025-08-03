@@ -50,83 +50,85 @@ public class Currency_3 extends JFrame {
 	 * Create the frame.
 	 */
 	public Currency_3() {
+		getContentPane().setBackground(new Color(240, 228, 217));
+		setBackground(new Color(240, 228, 217));
 		getContentPane().setLayout(null);
 		
 		JPanel panel = new JPanel();
-		panel.setBorder(new LineBorder(new Color(164, 164, 219), 20));
-		panel.setBounds(22, 25, 717, 106);
+		panel.setBackground(new Color(216, 186, 158));
+		panel.setBorder(new LineBorder(new Color(189, 138, 91), 8));
+		panel.setBounds(22, 25, 825, 106);
 		getContentPane().add(panel);
 		panel.setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("Currency Converter");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 40));
-		lblNewLabel.setBounds(34, 25, 651, 56);
+		lblNewLabel.setBounds(34, 25, 746, 56);
 		panel.add(lblNewLabel);
 		
 		JPanel panel_1 = new JPanel();
-		panel_1.setBounds(22, 142, 719, 183);
+		panel_1.setBackground(new Color(216, 186, 158));
+		panel_1.setBounds(22, 184, 825, 214);
 		getContentPane().add(panel_1);
-		panel_1.setBorder(new LineBorder(new Color(164, 164, 219), 20));
+		panel_1.setBorder(new LineBorder(new Color(189, 138, 91), 8));
 		panel_1.setLayout(null);
 		
 		JLabel lblNewLabel_1 = new JLabel("Amount");
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 30));
-		lblNewLabel_1.setBounds(33, 26, 281, 31);
+		lblNewLabel_1.setBounds(33, 26, 207, 31);
 		panel_1.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_1_1 = new JLabel("From Currency");
-		lblNewLabel_1_1.setFont(new Font("Tahoma", Font.BOLD, 30));
-		lblNewLabel_1_1.setBounds(33, 68, 281, 31);
+		lblNewLabel_1_1.setForeground(new Color(108, 108, 108));
+		lblNewLabel_1_1.setFont(new Font("Tahoma", Font.BOLD, 25));
+		lblNewLabel_1_1.setBounds(33, 68, 207, 31);
 		panel_1.add(lblNewLabel_1_1);
 		
 		JLabel lblNewLabel_1_2 = new JLabel("To Currency");
-		lblNewLabel_1_2.setFont(new Font("Tahoma", Font.BOLD, 30));
-		lblNewLabel_1_2.setBounds(33, 108, 281, 31);
+		lblNewLabel_1_2.setForeground(new Color(108, 108, 108));
+		lblNewLabel_1_2.setFont(new Font("Tahoma", Font.BOLD, 25));
+		lblNewLabel_1_2.setBounds(33, 108, 207, 31);
 		panel_1.add(lblNewLabel_1_2);
 		
 		jtxtAmount = new JTextField();
 		jtxtAmount.setFont(new Font("Tahoma", Font.PLAIN, 30));
-		jtxtAmount.setBounds(324, 23, 350, 34);
+		jtxtAmount.setBounds(356, 22, 430, 34);
 		panel_1.add(jtxtAmount);
 		jtxtAmount.setColumns(10);
 		
 		JComboBox jcmbFromCurrency = new JComboBox();
 		jcmbFromCurrency.setFont(new Font("Tahoma", Font.PLAIN, 25));
 		jcmbFromCurrency.setModel(new DefaultComboBoxModel(new String[] {"GBP - Britain", "CAD - Canadian", "USD - United States Dollar", "NGN - Nigerian Naria", "MXN - Mexican Peso", "EUR - Euro", "CHF - Swiss Franc", "AUD - Australian", "CNY - Chinese Yuan", "INR - Indian Rupee"}));
-		jcmbFromCurrency.setBounds(324, 68, 350, 31);
+		jcmbFromCurrency.setBounds(356, 68, 430, 31);
 		panel_1.add(jcmbFromCurrency);
 		
 		JComboBox jcmbToCurrency = new JComboBox();
 		jcmbToCurrency.setModel(new DefaultComboBoxModel(new String[] {"GBP - Britain", "CAD - Canadian", "USD - United States Dollar", "NGN - Nigerian Naria", "MXN - Mexican Peso", "EUR - Euro", "CHF - Swiss Franc", "AUD - Australian", "CNY - Chinese Yuan", "INR - Indian Rupee"}));
 		jcmbToCurrency.setFont(new Font("Tahoma", Font.PLAIN, 25));
-		jcmbToCurrency.setBounds(324, 108, 350, 31);
+		jcmbToCurrency.setBounds(356, 108, 430, 31);
 		panel_1.add(jcmbToCurrency);
 		
-		JPanel panel_2 = new JPanel();
-		panel_2.setBorder(new LineBorder(new Color(164, 164, 219), 20));
-		panel_2.setBounds(22, 336, 717, 106);
-		getContentPane().add(panel_2);
-		panel_2.setLayout(null);
-		
 		JLabel lblNewLabel_1_3 = new JLabel("Converted Amount:");
-		lblNewLabel_1_3.setFont(new Font("Tahoma", Font.BOLD, 25));
-		lblNewLabel_1_3.setBounds(33, 34, 281, 31);
-		panel_2.add(lblNewLabel_1_3);
+		lblNewLabel_1_3.setBounds(33, 150, 325, 31);
+		panel_1.add(lblNewLabel_1_3);
+		lblNewLabel_1_3.setFont(new Font("Tahoma", Font.BOLD, 30));
 		
 		jtxtAmountConverted = new JTextField();
-		jtxtAmountConverted.setBounds(324, 32, 350, 34);
-		panel_2.add(jtxtAmountConverted);
+		jtxtAmountConverted.setBounds(356, 150, 430, 34);
+		panel_1.add(jtxtAmountConverted);
 		jtxtAmountConverted.setFont(new Font("Tahoma", Font.PLAIN, 30));
 		jtxtAmountConverted.setColumns(10);
 		
 		JPanel panel_3 = new JPanel();
-		panel_3.setBorder(new LineBorder(new Color(164, 164, 219), 20));
-		panel_3.setBounds(22, 457, 717, 106);
+		panel_3.setBackground(new Color(216, 186, 158));
+		panel_3.setBorder(new LineBorder(new Color(189, 138, 91), 8));
+		panel_3.setBounds(22, 457, 825, 106);
 		getContentPane().add(panel_3);
 		panel_3.setLayout(null);
 		
 		JButton btnConverter = new JButton("Convert");
+		btnConverter.setBackground(new Color(189, 138, 91));
 		btnConverter.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			
@@ -155,6 +157,7 @@ public class Currency_3 extends JFrame {
 		panel_3.add(btnConverter);
 		
 		JButton btnExit = new JButton("Exit");
+		btnExit.setBackground(new Color(189, 138, 91));
 		btnExit.addActionListener(new ActionListener() {
 			private JFrame frame;
 			public void actionPerformed(ActionEvent e) {
@@ -166,10 +169,11 @@ public class Currency_3 extends JFrame {
 			}
 		});
 		btnExit.setFont(new Font("Tahoma", Font.BOLD, 25));
-		btnExit.setBounds(495, 35, 191, 40);
+		btnExit.setBounds(592, 35, 191, 40);
 		panel_3.add(btnExit);
 		
 		JButton btnReset = new JButton("Reset");
+		btnReset.setBackground(new Color(189, 138, 91));
 		btnReset.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				jtxtAmount.setText("");
@@ -179,11 +183,11 @@ public class Currency_3 extends JFrame {
 			}
 		});
 		btnReset.setFont(new Font("Tahoma", Font.BOLD, 25));
-		btnReset.setBounds(265, 35, 191, 40);
+		btnReset.setBounds(314, 35, 191, 40);
 		panel_3.add(btnReset);
 		
 		setTitle("Currency Converter");
-		setSize(770, 620);
+		setSize(880, 620);
 
 	}
 	
