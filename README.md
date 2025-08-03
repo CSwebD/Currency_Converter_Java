@@ -49,6 +49,6 @@ Currency_Converter/
 
 ## 📷 Screenshot
 
-![App UI](/image.png)
+![App UI](mage.png)
 
 
